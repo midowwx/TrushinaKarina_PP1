@@ -2,11 +2,11 @@
 * text=auto
 
 # txt file
-*.cs             text diff=csharp
-*.xaml           text
+*.cs text eol=lf 
+*.xaml text eol=lf
 *.config         text
-*.csproj         text
-*.sln            text eol=crlf
+*.csproj text eol=lf
+*.sln text eol=lf
 *.edmx           text
 *.tt             text
 *.resx           text
